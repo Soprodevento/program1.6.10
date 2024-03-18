@@ -5,6 +5,6 @@ public class Main {
     System.out.println(isGmailOrOutlook("kata12@gmail.com"));
     }
     public static boolean isGmailOrOutlook(String email) {
-        return email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+        return email.matches("^[a-zA-Z0-9]+@[a-zA-Z0-9.-]+\\.[com]{2,}$");
     }
 }
